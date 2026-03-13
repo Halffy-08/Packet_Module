@@ -1,4 +1,6 @@
-DB_HOST=localhost
-DB_USER=root
-DB_PASS=
-DB_NAME=mydatabase
+<?php
+$host = getenv("DB_HOST");
+$user = getenv("DB_USER");
+$pass = getenv("DB_PASS");
+$db = getenv("DB_NAME");
+?>
